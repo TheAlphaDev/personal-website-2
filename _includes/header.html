@@ -1,7 +1,7 @@
-{% if site.style == 'dark' %}
+{% if site.style == 'dt8375k' %}
   {% assign icon_color = "#ffffff" %}
 {% else %}
-  {% assign icon_color = "#24292e" %}
+  {% assign icon_color = "#ffffff" %}
 {% endif %}
 
 {% assign content = page.content %}
@@ -24,10 +24,10 @@
     <meta charset="utf-8">
     <title>{{ page_title }}</title>
     <meta name="description" content="{{ meta_description }}" />
-    <meta property="og:title" content="{{ user.name }}" />
+    <meta property="og:title" content="TheAlphaDev" />
     <meta property="og:image" content="{{ user.avatar_url }}" />
     <meta property="og:description" content="{{ meta_description }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
   </head>
-  <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
+  <body class="bg-white min-height-full"style="background-color: #2f363d !important">
